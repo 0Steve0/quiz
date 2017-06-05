@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Quiz">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Steve Shao">
+    <title>Quiz | Basic Knowledge</title>
+    <link rel="stylesheet" href="./Css/style.css" type="text/css">
+  </head>
+  <body>
+    <div class="grid">
+      <div id="quiz">
+        <h1>Quiz</h1>
+        <hr style="margin-top: 20px">
+        <p id="question"></p>
+        <div class="button">
+          <button id="btn0"><span id="choice0"></span></button>
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>
+        </div>
+        <hr style="margin-top: 50px">
+        <footer>
+          <p id="progress"></p>
+        </footer>
+      </div>
+    </div>
+    <!--Script must be put after the div in order to find it-->
+    <script type="text/javascript" src="./Js/quiz_controller.js"></script>
+    <script type="text/javascript" src="./Js/question.js"></script>
+    <script type="text/javascript" src="./Js/app.js"></script>
+  </body>
+</html>
